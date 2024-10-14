@@ -65,6 +65,77 @@ const ships = [
     link: "https://wxad.design/drafter",
   },
   {
+    name: "AD UI",
+    desc: "微信广告中后台设计语言",
+    logo: (
+      <img
+        alt=""
+        src="https://wxa.wxs.qq.com/wxad-design/yijie/adui-logo.png"
+      />
+    ),
+    link: "https://wxad.design/adui",
+  },
+  {
+    name: "AD UI Mob",
+    desc: "微信广告移动端设计语言",
+    logo: (
+      <img
+        alt=""
+        src="https://wxa.wxs.qq.com/wxad-design/yijie/adui-logo.png"
+      />
+    ),
+    link: "https://github.com/wxad/adui-mob",
+  },
+  {
+    name: "React Squircle",
+    desc: "React 曲率连续圆角组件",
+    logo: (
+      <svg viewBox="0 0 24 24">
+        <path
+          fill="none"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="2"
+          d="M12 3c7.2 0 9 1.8 9 9s-1.8 9-9 9s-9-1.8-9-9s1.8-9 9-9"
+        ></path>
+      </svg>
+    ),
+    link: "https://wxad.design/react-squircle/",
+  },
+  {
+    name: "ReactSequenceFramePlayer",
+    desc: "React 序列帧播放组件",
+    logo: (
+      <svg viewBox="0 0 24 24">
+        <g
+          fill="none"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="2"
+        >
+          <path d="M9.225 18.412A1.6 1.6 0 0 1 8 19c-.468 0-.914-.214-1.225-.588l-4.361-5.248a1.844 1.844 0 0 1 0-2.328l4.361-5.248A1.6 1.6 0 0 1 8 5c.468 0 .914.214 1.225.588l4.361 5.248a1.844 1.844 0 0 1 0 2.328zM17 5l4.586 5.836a1.844 1.844 0 0 1 0 2.328L17 19" />
+          <path d="m13 5l4.586 5.836a1.844 1.844 0 0 1 0 2.328L13 19" />
+        </g>
+      </svg>
+    ),
+    link: "https://wxad.design/flow/",
+  },
+  {
+    name: "React Flow",
+    desc: "React 基于原子类的流动组件",
+    logo: (
+      <svg viewBox="0 0 24 24">
+        <path
+          fill="currentColor"
+          d="M3 19v-9q0-.825.588-1.412T5 8h3V5q0-.825.588-1.412T10 3h9q.825 0 1.413.588T21 5v14q0 .825-.587 1.413T19 21H5q-.825 0-1.412-.587T3 19m13 0h3V5h-9v3h4q.825 0 1.413.588T16 10zm-6 0h4v-9h-4zm-5 0h3v-9H5z"
+        />
+      </svg>
+    ),
+    link: "https://wxad.design/flow/",
+  },
+  {
     name: "广告素材下载工具",
     desc: "通过 uid 和 cid 获取广告图片与视频文件",
     logo: (
@@ -146,75 +217,17 @@ const ships = [
     link: "http://acms.oa.com/web-new/tools/recorder",
   },
   {
-    name: "AD UI",
-    desc: "微信广告中后台设计语言",
-    logo: (
-      <img
-        alt=""
-        src="https://wxa.wxs.qq.com/wxad-design/yijie/adui-logo.png"
-      />
-    ),
-    link: "https://wxad.design/adui",
-  },
-  {
-    name: "AD UI Mob",
-    desc: "微信广告移动端设计语言",
-    logo: (
-      <img
-        alt=""
-        src="https://wxa.wxs.qq.com/wxad-design/yijie/adui-logo.png"
-      />
-    ),
-    link: "https://github.com/wxad/adui-mob",
-  },
-  {
-    name: "React Squircle",
-    desc: "React 曲率连续圆角组件",
+    name: "广告素材压缩工具",
+    desc: "通过 cli 将图片和视频压缩，并上传至 cdn",
     logo: (
       <svg viewBox="0 0 24 24">
-        <path
-          fill="none"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth="2"
-          d="M12 3c7.2 0 9 1.8 9 9s-1.8 9-9 9s-9-1.8-9-9s1.8-9 9-9"
-        ></path>
-      </svg>
-    ),
-    link: "https://wxad.design/react-squircle/",
-  },
-  {
-    name: "ReactSequenceFramePlayer",
-    desc: "React 序列帧播放组件",
-    logo: (
-      <svg viewBox="0 0 24 24">
-        <g
-          fill="none"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth="2"
-        >
-          <path d="M9.225 18.412A1.6 1.6 0 0 1 8 19c-.468 0-.914-.214-1.225-.588l-4.361-5.248a1.844 1.844 0 0 1 0-2.328l4.361-5.248A1.6 1.6 0 0 1 8 5c.468 0 .914.214 1.225.588l4.361 5.248a1.844 1.844 0 0 1 0 2.328zM17 5l4.586 5.836a1.844 1.844 0 0 1 0 2.328L17 19" />
-          <path d="m13 5l4.586 5.836a1.844 1.844 0 0 1 0 2.328L13 19" />
+        <g fill="currentColor" fillRule="evenodd" clipRule="evenodd">
+          <path d="M12.25 2.834c-.46-.078-1.088-.084-2.22-.084c-1.917 0-3.28.002-4.312.14c-1.012.135-1.593.39-2.016.812c-.423.423-.677 1.003-.812 2.009c-.138 1.028-.14 2.382-.14 4.29v4c0 1.906.002 3.26.14 4.288c.135 1.006.389 1.586.812 2.01c.423.422 1.003.676 2.009.811c1.028.139 2.382.14 4.289.14h4c1.907 0 3.262-.002 4.29-.14c1.005-.135 1.585-.389 2.008-.812c.423-.423.677-1.003.812-2.009c.138-1.027.14-2.382.14-4.289v-.437c0-1.536-.01-2.264-.174-2.813h-3.13c-1.133 0-2.058 0-2.79-.098c-.763-.103-1.425-.325-1.954-.854c-.529-.529-.751-1.19-.854-1.955c-.098-.73-.098-1.656-.098-2.79zm1.5.776V5c0 1.2.002 2.024.085 2.643c.08.598.224.891.428 1.094c.203.204.496.348 1.094.428c.619.083 1.443.085 2.643.085h2.02a45.815 45.815 0 0 0-1.17-1.076l-3.959-3.563A37.2 37.2 0 0 0 13.75 3.61m-3.575-2.36c1.385 0 2.28 0 3.103.315c.823.316 1.485.912 2.51 1.835l.107.096l3.958 3.563l.125.112c1.184 1.065 1.95 1.754 2.361 2.678c.412.924.412 1.954.411 3.546v.661c0 1.838 0 3.294-.153 4.433c-.158 1.172-.49 2.121-1.238 2.87c-.749.748-1.698 1.08-2.87 1.238c-1.14.153-2.595.153-4.433.153H9.944c-1.838 0-3.294 0-4.433-.153c-1.172-.158-2.121-.49-2.87-1.238c-.748-.749-1.08-1.698-1.238-2.87c-.153-1.14-.153-2.595-.153-4.433V9.945c0-1.838 0-3.294.153-4.433c.158-1.172.49-2.121 1.238-2.87c.75-.749 1.701-1.08 2.878-1.238c1.144-.153 2.607-.153 4.455-.153h.056z" />
+          <path d="M9.013 12.953a.75.75 0 0 0-1.026 0l-2 1.875a.75.75 0 1 0 1.026 1.094l.737-.69V18.5a.75.75 0 0 0 1.5 0v-3.269l.737.691a.75.75 0 0 0 1.026-1.094z" />
         </g>
       </svg>
     ),
-    link: "https://wxad.design/flow/",
-  },
-  {
-    name: "React Flow",
-    desc: "React 基于原子类的流动组件",
-    logo: (
-      <svg viewBox="0 0 24 24">
-        <path
-          fill="currentColor"
-          d="M3 19v-9q0-.825.588-1.412T5 8h3V5q0-.825.588-1.412T10 3h9q.825 0 1.413.588T21 5v14q0 .825-.587 1.413T19 21H5q-.825 0-1.412-.587T3 19m13 0h3V5h-9v3h4q.825 0 1.413.588T16 10zm-6 0h4v-9h-4zm-5 0h3v-9H5z"
-        />
-      </svg>
-    ),
-    link: "https://wxad.design/flow/",
+    link: "https://wxa.wxs.qq.com/wxad-design/yijie/wxad-case-compress-demo.mp4",
   },
 ]
 
