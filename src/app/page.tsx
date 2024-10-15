@@ -363,6 +363,19 @@ const creates = [
     link: "https://wxad.design/colorpod/",
   },
   {
+    name: "微信广告十周年",
+    desc: "wxad 10th anniversary",
+    logo: (
+      <svg viewBox="0 0 24 24">
+        <path
+          fill="currentColor"
+          d="M14 16h3V8h-3zm0 3q-1.25 0-2.125-.875T11 16V8q0-1.25.875-2.125T14 5h3q1.25 0 2.125.875T20 8v8q0 1.25-.875 2.125T17 19zm-8 0V8H4V5h5v14z"
+        />
+      </svg>
+    ),
+    link: "https://mp.weixin.qq.com/promotion/res/htmledition/wxad-decennial-monitor",
+  },
+  {
     name: "Best Hearts of 2019",
     desc: "Best Hearts from Best Moments",
     logo: (
