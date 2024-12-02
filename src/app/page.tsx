@@ -84,7 +84,7 @@ const ships = [
         src="https://wxa.wxs.qq.com/wxad-design/yijie/adui-logo.png"
       />
     ),
-    link: "https://github.com/wxad/adui-mob",
+    link: "https://wxad.design/adui-mob",
   },
   {
     name: "React Squircle",
@@ -136,7 +136,39 @@ const ships = [
     link: "https://wxad.design/flow/",
   },
   {
-    name: "广告素材下载工具",
+    name: "字体压缩",
+    desc: "字体子集化小工具",
+    logo: (
+      <svg viewBox="0 0 24 24">
+        <path
+          fill="currentColor"
+          d="M9.6 14.95h4.8l.875 2.425q.1.275.35.45t.55.175q.5 0 .813-.413t.112-.912l-3.8-10.05q-.125-.275-.375-.45T12.375 6h-.75q-.3 0-.55.175t-.375.45l-3.8 10.05q-.2.475.1.9t.8.425q.325 0 .563-.175t.362-.475zm.6-1.75l1.75-4.95h.1l1.75 4.95zM4 22q-.825 0-1.412-.587T2 20V4q0-.825.588-1.412T4 2h16q.825 0 1.413.588T22 4v16q0 .825-.587 1.413T20 22zm0-2h16V4H4zM4 4v16z"
+        />
+      </svg>
+    ),
+    link: "http://acms.oa.com/web-new/tools/fontmin",
+  },
+  {
+    name: "PAG 文字替换",
+    desc: "替换 PAG 文件内指定索引（index）的文字",
+    logo: (
+      <svg viewBox="0 0 48 48">
+        <g
+          fill="none"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeWidth="4"
+        >
+          <circle cx="22.834" cy="22.834" r="17" strokeLinejoin="round" />
+          <path d="m35 35l6 6" />
+          <path strokeLinejoin="round" d="M23 17v14m-5-14h10" />
+        </g>
+      </svg>
+    ),
+    link: "http://acms.oa.com/web-new/tools/pag",
+  },
+  {
+    name: "广告素材下载",
     desc: "通过 uid 和 cid 获取广告图片与视频文件",
     logo: (
       <svg viewBox="0 0 24 24">
@@ -158,7 +190,7 @@ const ships = [
     link: "http://acms.oa.com/web-new/tools/md",
   },
   {
-    name: "广告预览工具",
+    name: "广告预览",
     desc: "通过 uid 和 cid 获取永久预览",
     logo: (
       <svg viewBox="0 0 24 24">
@@ -201,7 +233,7 @@ const ships = [
     link: "http://acms.oa.com/web-new/tools/qrc",
   },
   {
-    name: "广告录屏工具",
+    name: "广告录屏",
     desc: "通过 uid 和 cid 将广告录制为视频",
     logo: (
       <svg viewBox="0 0 24 24">
@@ -217,7 +249,7 @@ const ships = [
     link: "http://acms.oa.com/web-new/tools/recorder",
   },
   {
-    name: "广告素材压缩工具",
+    name: "广告素材压缩",
     desc: "通过 cli 将图片和视频压缩，并上传至 cdn",
     logo: (
       <svg viewBox="0 0 24 24">
@@ -243,7 +275,7 @@ const creates = [
         ></path>
       </svg>
     ),
-    link: "http://acms.oa.com/web-new",
+    link: "https://wxad.design/abc/",
   },
   {
     name: "Aragakey's 设计垂点",
@@ -373,7 +405,7 @@ const creates = [
         />
       </svg>
     ),
-    link: "https://mp.weixin.qq.com/promotion/res/htmledition/wxad-decennial-monitor",
+    link: "https://mp.weixin.qq.com/promotion/res/htmledition/wxad-decennial-monitor/",
   },
   {
     name: "Best Hearts of 2019",
