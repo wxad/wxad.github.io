@@ -10,6 +10,21 @@ const gilroy = localFont({
 
 const ships = [
   {
+    name: "MovieCompressor",
+    desc: "视频与图片转换和压缩、帧率转换、添加水印",
+    logo: (
+      <svg
+        viewBox="0 0 24 24"
+        style={{
+          backgroundImage:
+            "url(https://wxa.wxs.qq.com/wxad-design/yijie/mc-logo.webp)",
+          backgroundSize: "100% 100%",
+        }}
+      />
+    ),
+    link: "https://drive.weixin.qq.com/s?k=AJEAIQdfAAo9CCIYa7",
+  },
+  {
     name: "录入助手",
     desc: "微信广告内容管理平台",
     logo: (
@@ -266,7 +281,7 @@ const ships = [
 const creates = [
   {
     name: "Web 流畅界面建议",
-    desc: "移动段制作交互动画的经验记录",
+    desc: "移动端制作交互动画的经验记录",
     logo: (
       <svg viewBox="0 0 24 24">
         <path
