@@ -164,25 +164,6 @@ const ships = [
     link: "http://acms.oa.com/web-new/tools/fontmin",
   },
   {
-    name: "PAG 文字替换",
-    desc: "替换 PAG 文件内指定索引（index）的文字",
-    logo: (
-      <svg viewBox="0 0 48 48">
-        <g
-          fill="none"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeWidth="4"
-        >
-          <circle cx="22.834" cy="22.834" r="17" strokeLinejoin="round" />
-          <path d="m35 35l6 6" />
-          <path strokeLinejoin="round" d="M23 17v14m-5-14h10" />
-        </g>
-      </svg>
-    ),
-    link: "http://acms.oa.com/web-new/tools/pag",
-  },
-  {
     name: "广告素材下载",
     desc: "通过 uid 和 cid 获取广告图片与视频文件",
     logo: (
@@ -275,6 +256,42 @@ const ships = [
       </svg>
     ),
     link: "https://wxa.wxs.qq.com/wxad-design/yijie/wxad-case-compress-demo.mp4",
+  },
+  {
+    name: "商品卖点长度预检测",
+    desc: "2025 车展招商",
+    logo: (
+      <svg viewBox="0 0 24 24">
+        <path
+          fill="none"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="2"
+          d="M5.636 19.364a9 9 0 1 1 12.728 0M16 9l-4 4"
+        />
+      </svg>
+    ),
+    link: "https://wxa.wxs.qq.com/wxad-design/2025-car-show-tool/index.html",
+  },
+  {
+    name: "PAG 文字替换",
+    desc: "替换 PAG 文件内指定索引（index）的文字",
+    logo: (
+      <svg viewBox="0 0 48 48">
+        <g
+          fill="none"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeWidth="4"
+        >
+          <circle cx="22.834" cy="22.834" r="17" strokeLinejoin="round" />
+          <path d="m35 35l6 6" />
+          <path strokeLinejoin="round" d="M23 17v14m-5-14h10" />
+        </g>
+      </svg>
+    ),
+    link: "http://acms.oa.com/web-new/tools/pag",
   },
 ]
 
