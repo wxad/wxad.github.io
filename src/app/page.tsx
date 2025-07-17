@@ -23,38 +23,59 @@ const ships = [
       />
     ),
     link: "https://drive.weixin.qq.com/s?k=AJEAIQdfAAo9CCIYa7",
+    updateAt: "2025 H1",
   },
   {
-    name: "Springen",
-    desc: "Tabs and toggles that ‘jump’ between content sections",
-    logo: (
-      <svg className="rotate-90" viewBox="0 0 24 24">
-        <path
-          fill="currentColor"
-          d="M7.06 8.94L5 8l2.06-.94L8 5l.94 2.06L11 8l-2.06.94L8 11zM8 21l.94-2.06L11 18l-2.06-.94L8 15l-.94 2.06L5 18l2.06.94zm-3.63-8.63L3 13l1.37.63L5 15l.63-1.37L7 13l-1.37-.63L5 11zM12 12c0-2.73 1.08-5.27 2.75-7.25L12 2h7v7l-2.82-2.82C14.84 7.82 14 9.88 14 12c0 3.32 2.1 6.36 5 7.82V22c-4.09-1.59-7-5.65-7-10"
-        />
-      </svg>
-    ),
-    link: "https://wxad.design/spross/",
-  },
-  {
-    name: "Spross",
-    desc: "Interface overlays that 'sprout' from elements",
+    name: "内容填充助手",
+    desc: "品牌、文案及图片等资产的智能填充工具",
     logo: (
       <svg viewBox="0 0 24 24">
-        <g
-          fill="none"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth="2"
-        >
-          <path d="M7 20h10m-7 0c5.5-2.5.8-6.4 3-10" />
-          <path d="M9.5 9.4c1.1.8 1.8 2.2 2.3 3.7c-2 .4-3.5.4-4.8-.3c-1.2-.6-2.3-1.9-3-4.2c2.8-.5 4.4 0 5.5.8M14.1 6a7 7 0 0 0-1.1 4c1.9-.1 3.3-.6 4.3-1.4c1-1 1.6-2.3 1.7-4.6c-2.7.1-4 1-4.9 2" />
+        <g fill="none">
+          <path
+            stroke="currentColor"
+            strokeWidth="1.5"
+            d="M3 11c0-3.771 0-5.657 1.172-6.828S7.229 3 11 3h2c3.771 0 5.657 0 6.828 1.172S21 7.229 21 11v2c0 3.771 0 5.657-1.172 6.828S16.771 21 13 21h-2c-3.771 0-5.657 0-6.828-1.172S3 16.771 3 13z"
+          />
+          <path
+            fill="currentColor"
+            fillRule="evenodd"
+            d="m18.998 14.29l-.344-.343l-.015-.016c-.401-.4-.724-.723-1.008-.962c-.292-.246-.576-.434-.909-.534a2.5 2.5 0 0 0-1.444 0c-.333.1-.617.288-.91.534c-.283.239-.606.562-1.007.962l-.015.016c-.3.3-.5.5-.663.634c-.161.133-.231.155-.26.16a.5.5 0 0 1-.349-.067c-.024-.016-.081-.062-.181-.245a11 11 0 0 1-.38-.835l-.053-.124l-.013-.029c-.364-.85-.654-1.527-.936-2.028c-.287-.51-.606-.915-1.065-1.145a2.5 2.5 0 0 0-1.33-.256c-.513.043-.959.3-1.415.667c-.448.361-.969.881-1.623 1.536l-.022.021l-.056.057v1.414l.763-.764c.681-.68 1.164-1.162 1.565-1.485c.4-.321.655-.431.871-.45a1.5 1.5 0 0 1 .799.154c.194.097.39.294.641.741c.253.45.522 1.075.901 1.96l.054.125l.01.023c.154.36.284.664.41.896c.13.239.29.466.534.617a1.5 1.5 0 0 0 1.049.202c.282-.05.514-.202.723-.375c.204-.168.438-.402.716-.68l.017-.017c.42-.42.713-.712.96-.92c.242-.205.406-.297.554-.342c.282-.085.584-.085.866 0c.148.045.312.137.554.341c.247.209.54.501.96.921l1.029 1.028c.013-.41.019-.87.022-1.392"
+            clipRule="evenodd"
+          />
+          <circle cx="16.5" cy="7.5" r="1.5" fill="currentColor" />
         </g>
       </svg>
     ),
-    link: "https://wxad.design/spross/",
+    link: "https://www.figma.com/community/plugin/1473593631444035549",
+    updateAt: "2025 H1",
+  },
+  {
+    name: "TAD Watermarks Figma",
+    desc: "PDF 水印工具，支持不同 logo 及自定义文字",
+    logo: (
+      <svg viewBox="0 0 18 18">
+        <path
+          fill="currentColor"
+          d="M9.39066 16.5152C9.36746 16.5442 9.34111 16.5706 9.31207 16.5938C9.09631 16.7661 8.78167 16.7309 8.60931 16.5152C5.20309 12.2512 3.5 9.12116 3.5 7.125C3.5 4.0184 5.96243 1.5 9 1.5C12.0376 1.5 14.5 4.0184 14.5 7.125C14.5 9.12116 12.7969 12.2512 9.39066 16.5152ZM8.96 14.5C11.6 10.9314 12.92 8.41803 12.92 6.96C12.92 4.77295 11.147 3 8.96 3C6.77295 3 5 4.77295 5 6.96C5 8.41803 6.32 10.9314 8.96 14.5ZM9 9.25C7.75736 9.25 6.75 8.24264 6.75 7C6.75 5.75736 7.75736 4.75 9 4.75C10.2426 4.75 11.25 5.75736 11.25 7C11.25 8.24264 10.2426 9.25 9 9.25ZM9 8C9.55228 8 10 7.55228 10 7C10 6.44772 9.55228 6 9 6C8.44772 6 8 6.44772 8 7C8 7.55228 8.44772 8 9 8Z"
+        />
+      </svg>
+    ),
+    link: "https://www.figma.com/community/plugin/1292762420160061919/tad-watermarks",
+    updateAt: "2023 H2",
+  },
+  {
+    name: "TAD Watermarks for PDF",
+    desc: "PDF 水印工具，支持不同 logo 及自定义文字",
+    logo: (
+      <svg viewBox="0 0 18 18">
+        <path
+          fill="currentColor"
+          d="M9.39066 16.5152C9.36746 16.5442 9.34111 16.5706 9.31207 16.5938C9.09631 16.7661 8.78167 16.7309 8.60931 16.5152C5.20309 12.2512 3.5 9.12116 3.5 7.125C3.5 4.0184 5.96243 1.5 9 1.5C12.0376 1.5 14.5 4.0184 14.5 7.125C14.5 9.12116 12.7969 12.2512 9.39066 16.5152ZM8.96 14.5C11.6 10.9314 12.92 8.41803 12.92 6.96C12.92 4.77295 11.147 3 8.96 3C6.77295 3 5 4.77295 5 6.96C5 8.41803 6.32 10.9314 8.96 14.5ZM9 9.25C7.75736 9.25 6.75 8.24264 6.75 7C6.75 5.75736 7.75736 4.75 9 4.75C10.2426 4.75 11.25 5.75736 11.25 7C11.25 8.24264 10.2426 9.25 9 9.25ZM9 8C9.55228 8 10 7.55228 10 7C10 6.44772 9.55228 6 9 6C8.44772 6 8 6.44772 8 7C8 7.55228 8.44772 8 9 8Z"
+        />
+      </svg>
+    ),
+    link: "https://pdf-watermark.pages.woa.com/",
+    updateAt: "2023 H2",
   },
   {
     name: "录入助手",
@@ -69,6 +90,7 @@ const ships = [
       </svg>
     ),
     link: "http://acms.oa.com/web-new",
+    updateAt: "Ongoing",
   },
   {
     name: "wxad-tiptap",
@@ -84,6 +106,7 @@ const ships = [
       </svg>
     ),
     link: "https://wxad-tiptap.pages.woa.com",
+    updateAt: "2024 H2",
   },
   {
     name: "Drafter",
@@ -110,6 +133,7 @@ const ships = [
       </svg>
     ),
     link: "https://wxad.design/drafter",
+    updateAt: "2024 H2",
   },
   {
     name: "AD UI",
@@ -121,6 +145,7 @@ const ships = [
       />
     ),
     link: "https://wxad.design/adui",
+    updateAt: "2025 H1",
   },
   {
     name: "AD UI Mob",
@@ -132,6 +157,7 @@ const ships = [
       />
     ),
     link: "https://wxad.design/adui-mob",
+    updateAt: "2023 H2",
   },
   {
     name: "React Squircle",
@@ -149,6 +175,7 @@ const ships = [
       </svg>
     ),
     link: "https://wxad.design/react-squircle/",
+    updateAt: "2024 H2",
   },
   {
     name: "ReactSequenceFramePlayer",
@@ -167,7 +194,8 @@ const ships = [
         </g>
       </svg>
     ),
-    link: "https://wxad.design/flow/",
+    link: "https://github.com/wxad/react-sequence-frame-player",
+    updateAt: "2024 H2",
   },
   {
     name: "React Flow",
@@ -181,6 +209,7 @@ const ships = [
       </svg>
     ),
     link: "https://wxad.design/flow/",
+    updateAt: "2022 H1",
   },
   {
     name: "字体压缩",
@@ -194,6 +223,7 @@ const ships = [
       </svg>
     ),
     link: "http://acms.oa.com/web-new/tools/fontmin",
+    updateAt: "2024 H2",
   },
   {
     name: "广告素材下载",
@@ -216,6 +246,7 @@ const ships = [
       </svg>
     ),
     link: "http://acms.oa.com/web-new/tools/md",
+    updateAt: "2024 H1",
   },
   {
     name: "广告预览",
@@ -259,6 +290,7 @@ const ships = [
       </svg>
     ),
     link: "http://acms.oa.com/web-new/tools/qrc",
+    updateAt: "2024 H1",
   },
   {
     name: "广告录屏",
@@ -275,6 +307,7 @@ const ships = [
       </svg>
     ),
     link: "http://acms.oa.com/web-new/tools/recorder",
+    updateAt: "2024 H1",
   },
   {
     name: "广告素材压缩",
@@ -288,6 +321,7 @@ const ships = [
       </svg>
     ),
     link: "https://wxa.wxs.qq.com/wxad-design/yijie/wxad-case-compress-demo.mp4",
+    updateAt: "2024 H1",
   },
   {
     name: "商品卖点长度预检测",
@@ -305,6 +339,7 @@ const ships = [
       </svg>
     ),
     link: "https://wxa.wxs.qq.com/wxad-design/2025-car-show-tool/index.html",
+    updateAt: "2025 H1",
   },
   {
     name: "PAG 文字替换",
@@ -324,6 +359,7 @@ const ships = [
       </svg>
     ),
     link: "http://acms.oa.com/web-new/tools/pag",
+    updateAt: "2025 H1",
   },
 ]
 
@@ -340,6 +376,7 @@ const creates = [
       </svg>
     ),
     link: "https://wxad.design/making-fluid-interfaces/",
+    updateAt: "2025 H1",
   },
   {
     name: "Aragakey's 形态探索 Demos",
@@ -353,6 +390,7 @@ const creates = [
       </svg>
     ),
     link: "https://wxad.design/abc/",
+    updateAt: "Ongoing",
   },
   {
     name: "Aragakey's 设计垂点",
@@ -366,6 +404,7 @@ const creates = [
       </svg>
     ),
     link: "https://wxad.design/abc/",
+    updateAt: "Ongoing",
   },
   {
     name: "微广设计 Next.js 模板",
@@ -416,6 +455,7 @@ const creates = [
       </svg>
     ),
     link: "https://wxad.design/wxad-next-template/",
+    updateAt: "Ongoing",
   },
   {
     name: "微广设计 Vite 模板",
@@ -440,6 +480,41 @@ const creates = [
       </svg>
     ),
     link: "https://wxad.design/wxad-vite-template/",
+    updateAt: "Ongoing",
+  },
+  {
+    name: "Springen",
+    desc: "'jump'",
+    logo: (
+      <svg className="rotate-90" viewBox="0 0 24 24">
+        <path
+          fill="currentColor"
+          d="M7.06 8.94L5 8l2.06-.94L8 5l.94 2.06L11 8l-2.06.94L8 11zM8 21l.94-2.06L11 18l-2.06-.94L8 15l-.94 2.06L5 18l2.06.94zm-3.63-8.63L3 13l1.37.63L5 15l.63-1.37L7 13l-1.37-.63L5 11zM12 12c0-2.73 1.08-5.27 2.75-7.25L12 2h7v7l-2.82-2.82C14.84 7.82 14 9.88 14 12c0 3.32 2.1 6.36 5 7.82V22c-4.09-1.59-7-5.65-7-10"
+        />
+      </svg>
+    ),
+    link: "https://wxad.design/spross/",
+    updateAt: "2025 H1",
+  },
+  {
+    name: "Spross",
+    desc: "'sprout'",
+    logo: (
+      <svg viewBox="0 0 24 24">
+        <g
+          fill="none"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="2"
+        >
+          <path d="M7 20h10m-7 0c5.5-2.5.8-6.4 3-10" />
+          <path d="M9.5 9.4c1.1.8 1.8 2.2 2.3 3.7c-2 .4-3.5.4-4.8-.3c-1.2-.6-2.3-1.9-3-4.2c2.8-.5 4.4 0 5.5.8M14.1 6a7 7 0 0 0-1.1 4c1.9-.1 3.3-.6 4.3-1.4c1-1 1.6-2.3 1.7-4.6c-2.7.1-4 1-4.9 2" />
+        </g>
+      </svg>
+    ),
+    link: "https://wxad.design/spross/",
+    updateAt: "2025 H1",
   },
   {
     name: "响应式走查工具 Pixie",
@@ -453,6 +528,7 @@ const creates = [
       </svg>
     ),
     link: "https://wxad.design/pixie/",
+    updateAt: "2022 H2",
   },
   {
     name: "Colorpod",
@@ -470,6 +546,7 @@ const creates = [
       </svg>
     ),
     link: "https://wxad.design/colorpod/",
+    updateAt: "2018 H2",
   },
   {
     name: "微信广告十周年",
@@ -483,6 +560,7 @@ const creates = [
       </svg>
     ),
     link: "https://mp.weixin.qq.com/promotion/res/htmledition/wxad-decennial-monitor/",
+    updateAt: "2024 H2",
   },
   {
     name: "Best Hearts of 2019",
@@ -496,6 +574,7 @@ const creates = [
       </svg>
     ),
     link: "https://wxad.design/best-hearts/",
+    updateAt: "2020 H1",
   },
   {
     name: "Sign of Our Times",
@@ -514,6 +593,7 @@ const creates = [
       </svg>
     ),
     link: "https://wxad.design/sign-of-our-times/",
+    updateAt: "2021 H1",
   },
 ]
 
@@ -521,7 +601,7 @@ export default function Home() {
   return (
     <div className="overflow-x-hidden min-h-screen">
       <ArtDots />
-      <div className="relative z-[1] mx-auto px-[120px] pt-32 max-w-[1440px]">
+      <div className="relative z-[1] mx-auto px-8 md:px-[120px] pt-32 max-w-[1440px]">
         <div
           className={`relative z-[1] pb-32 text-3xl text-neutral-950 ${gilroy.className}`}
         >
@@ -550,11 +630,11 @@ export default function Home() {
               }}
             />
           </div>
-          <div className="relative z-[1] mt-16 grid grid-cols-3 gap-5">
+          <div className="relative z-[1] mt-16 grid grid-cols-1 md:grid-cols-3 gap-5">
             {ships.map((ship, index) => (
               <a
                 key={index}
-                className="relative py-6 pl-6 pr-2 bg-neutral-200 bg-opacity-20 border border-solid border-neutral-200 rounded-2xl backdrop-blur-sm cursor-pointer group"
+                className="relative py-5 pl-5 pr-1 bg-neutral-200 bg-opacity-20 border border-solid border-neutral-200 rounded-2xl backdrop-blur-sm cursor-pointer group"
                 href={ship.link}
                 target="_blank"
               >
@@ -565,7 +645,7 @@ export default function Home() {
                       "linear-gradient(90deg, transparent, var(--accents-2) 10%, var(--accents-4) 80%, transparent)",
                   }}
                 />
-                <div className="absolute top-0 left-0 w-full h-full overflow-hidden">
+                <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none">
                   <div
                     className="absolute z-[2] top-[-1px] left-[-1px] w-full aspect-square scale-[2] -rotate-45 opacity-20 group-hover:bg-[100%] duration-700"
                     style={{
@@ -575,14 +655,17 @@ export default function Home() {
                     }}
                   />
                 </div>
-                <div className="relative z-[1] flex items-center">
-                  <div className="flex-none mr-3 w-10">{ship.logo}</div>
+                <div className="relative z-[1] flex">
+                  <div className="mt-0.5 flex-none mr-3 w-10">{ship.logo}</div>
                   <div className="flex-1 min-w-0">
                     <div className="mb-[2px] text-neutral-900 text-base font-medium">
                       {ship.name}
                     </div>
-                    <div className="text-xs text-neutral-400 whitespace-nowrap text-ellipsis overflow-hidden">
+                    <div className="text-xs text-neutral-500 whitespace-nowrap text-ellipsis overflow-hidden">
                       {ship.desc}
+                    </div>
+                    <div className="mt-3 text-xs text-neutral-400 whitespace-nowrap text-ellipsis overflow-hidden">
+                      {ship.updateAt}
                     </div>
                   </div>
                 </div>
@@ -1484,11 +1567,11 @@ export default function Home() {
             }}
           />
         </div>
-        <div className="relative z-[1] mt-16 grid grid-cols-3 gap-5">
+        <div className="relative z-[1] mt-16 grid grid-cols-1 md:grid-cols-3 gap-5">
           {creates.map((create, index) => (
             <a
               key={index}
-              className="relative py-6 pl-6 pr-2 bg-neutral-200 bg-opacity-20 border border-solid border-neutral-200 rounded-2xl backdrop-blur-sm cursor-pointer group"
+              className="relative py-5 pl-5 pr-1 bg-neutral-200 bg-opacity-20 border border-solid border-neutral-200 rounded-2xl backdrop-blur-sm cursor-pointer group"
               href={create.link}
               target="_blank"
             >
@@ -1509,14 +1592,17 @@ export default function Home() {
                   }}
                 />
               </div>
-              <div className="relative z-[1] flex items-center">
-                <div className="flex-none mr-3 w-10">{create.logo}</div>
+              <div className="relative z-[1] flex">
+                <div className="mt-0.5 flex-none mr-3 w-10">{create.logo}</div>
                 <div className="flex-1 min-w-0">
                   <div className="mb-[2px] text-neutral-900 text-base font-medium">
                     {create.name}
                   </div>
                   <div className="text-xs text-neutral-400 whitespace-nowrap text-ellipsis overflow-hidden">
                     {create.desc}
+                  </div>
+                  <div className="mt-3 text-xs text-neutral-400 whitespace-nowrap text-ellipsis overflow-hidden">
+                    {create.updateAt}
                   </div>
                 </div>
               </div>
